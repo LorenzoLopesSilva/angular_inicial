@@ -3,10 +3,14 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
+import { FirstComponent } from './components/first-component/first-component';
+import { NavBar } from './components/nav-bar/nav-bar';
 
 @NgModule({
   declarations: [
-    App
+    App,
+    FirstComponent,
+    NavBar,
   ],
   imports: [
     BrowserModule,
