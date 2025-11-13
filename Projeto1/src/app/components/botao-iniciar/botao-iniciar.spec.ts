@@ -1,19 +1,18 @@
-// Arquivo de testes unitarios
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Home } from './home';
+import { BotaoIniciar } from './botao-iniciar';
 
-describe('Home', () => {
-  let component: Home;
-  let fixture: ComponentFixture<Home>;
+describe('BotaoIniciar', () => {
+  let component: BotaoIniciar;
+  let fixture: ComponentFixture<BotaoIniciar>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Home]
+      imports: [BotaoIniciar]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Home);
+    fixture = TestBed.createComponent(BotaoIniciar);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
